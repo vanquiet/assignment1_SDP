@@ -1,4 +1,4 @@
-#Laptop Configurator (Builder Pattern)
+# Laptop Configurator (Builder Pattern)
 
 Console Java app demonstrating the Builder design pattern for custom laptop assembly.
 

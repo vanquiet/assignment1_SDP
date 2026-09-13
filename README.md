@@ -3,7 +3,7 @@
 Console Java app demonstrating the Builder design pattern for custom laptop assembly.
 
 ## 1. Product
-The `Laptop` product contains:
+The Laptop product contains:
 - CPU, RAM, GPU
 - Storage (SSD or HDD)
 - Display (size, refresh rate)

@@ -2,7 +2,7 @@
 
 Console Java app demonstrating the Builder design pattern for custom laptop assembly.
 
-## 1. Product
+1. Product
 The Laptop product contains:
 - CPU, RAM, GPU
 - Storage (SSD or HDD)
@@ -10,15 +10,15 @@ The Laptop product contains:
 - Power adapter (watts)
 - Cooling system (fan or liquid metal)
 
-## 2. Structure
+2. Structure
 - `src/model/`: `Laptop`, `StorageType`, `CoolingType`
 - `src/builder/`: `LaptopBuilder`, `GamingLaptopBuilder`, `OfficeLaptopBuilder`
 - `src/director/`: `LaptopDirector`
 - `src/Client.java`: Entry point
 
-## 3. How to Build
+3. How to Build
 
-### Using Director (Presets)
+Using Director (Presets)
 ```java
 LaptopDirector director = new LaptopDirector();
 
